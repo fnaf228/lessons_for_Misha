@@ -7,7 +7,8 @@ y = "ten"
 print (my_string1)
 print(my_string2 + my_string3)
 print(my_string1 + z)
-print(my_string1 + y)
+print(my_string1.upper() + y) # верхний регистр
+print(my_string1.lower() + y) # нижний регистр
 print(len(y)) # длина строки
 print(str(x)) # число>строка
 print(int(z)) # строка>число
